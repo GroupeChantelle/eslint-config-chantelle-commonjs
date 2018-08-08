@@ -2,36 +2,30 @@
   "name": "@chantelle/eslint-config-chantelle-commonjs",
   "version": "1.4.7-1",
   "description": "Chantelle common Eslint rules for CommonJs",
+  "sideEffects": false,
   "main": "./index.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
-    "@chantelle/eslint-plugin-chantelle": "^1.4.7-1",
-    "babel-eslint": "^8.0.3",
-    "yarn-or-npm": "^2.0.4"
+    "@chantelle/eslint-plugin-chantelle": "^1.4.7-1"
   },
-  "devDependencies": {
-    "eslint": "^4.12.1",
+  "peerDependencies": {
+    "eslint": "^5.0.1",
+    "babel-eslint": "^8.2.6",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-config-cleanjs": "^4.0.0",
-    "eslint-config-react-app": "^2.0.1",
-    "eslint-plugin-babel": "^4.1.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-better": "^0.1.5",
-    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.4.2",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.5.1",
-    "flow-bin": "^0.66.0",
-    "flow-runtime": "^0.17.0",
-    "flow-typed": "^2.3.0",
-    "husky": "^0.14.3",
-    "nodemon": "^1.12.1",
-    "prettier": "^1.8.2"
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.14.0"
   },
-  "eslintIgnore": [
-    "node_modules"
-  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:GroupeChantelle/tools.git"
