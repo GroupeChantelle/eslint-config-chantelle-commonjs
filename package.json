@@ -1,9 +1,9 @@
 {
-  "name": "@chantelle/eslint-config-chantelle-commonjs",
+  "name": "@chantelle/eslint-config-legacy",
   "version": "1.4.7-1",
-  "description": "Chantelle common Eslint rules for CommonJs",
-  "sideEffects": false,
+  "description": "Common Eslint rules for Legacy projects of Chantelle",
   "main": "./index.js",
+  "sideEffects": false,
   "license": "Apache-2.0",
   "dependencies": {
     "@chantelle/eslint-plugin-chantelle": "^1.4.7-1"
@@ -26,8 +26,16 @@
     "eslint-plugin-react": "^7.10.0",
     "prettier": "^1.14.0"
   },
+  "devDependencies": {
+    "@chantelle/eslint-config-chantelle-commonjs": "1.4.7-1"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:GroupeChantelle/tools.git"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@chantelle/eslint-config-chantelle-commonjs"
+    ]
   }
 }
