@@ -2,7 +2,7 @@
 
 const { parserOptions, plugins, rules } = require('./index')
 
-describe('@chantelle/eslint-config-chantelle', () => {
+describe('@nod/eslint-config-nod', () => {
   test('contains parserOptions', () => {
     expect(Object.keys(parserOptions).length > 0).toBeTruthy()
   })

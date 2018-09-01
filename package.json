@@ -1,16 +1,17 @@
 {
-  "name": "@chantelle/eslint-config-chantelle-commonjs",
-  "version": "1.4.7-1",
-  "description": "Chantelle common Eslint rules for CommonJs",
+  "name": "@nod/eslint-config-nod-commonjs",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Eslint rules for CommonJS",
   "sideEffects": false,
   "main": "./index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@chantelle/eslint-plugin-chantelle": "^1.4.7-1"
+    "@nod/eslint-plugin-nod": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^5.0.1",
     "babel-eslint": "^8.2.6",
+    "eslint": "^5.0.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-cleanjs": "^4.0.0",
     "eslint-config-prettier": "^2.9.0",
@@ -28,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:GroupeChantelle/tools.git"
+    "url": "git+ssh://git@github.com:NOD-studios/eslint-config-nod-commonjs.git"
   }
 }

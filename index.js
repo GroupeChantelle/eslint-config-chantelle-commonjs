@@ -1,3 +1,3 @@
-const { chantelleCommonJs } = require('@chantelle/eslint-plugin-chantelle')
+const { nodCommonJs } = require('@nod/eslint-plugin-nod')
 
-module.exports = chantelleCommonJs
+module.exports = nodCommonJs
