@@ -1,5 +1,5 @@
 {
-  "name": "@nod/eslint-config-nod-commonjs",
+  "name": "@nod/eslint-config-commonjs",
   "version": "4.0.2",
   "description": "Eslint rules for CommonJS",
   "sideEffects": false,
