@@ -6,11 +6,16 @@
   "main": "src/index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@nod/eslint-plugin-nod": "^4.0.3"
+    "@nod/eslint-plugin-nod": "workspace:*"
   },
   "files": [
     "src"
   ],
+  "scripty": {
+    "modules": [
+      "@nod/scripty-module"
+    ]
+  },
   "peerDependencies": {
     "babel-eslint": "9.0.0",
     "eslint": "5.6.0",
@@ -35,7 +40,41 @@
   },
   "gitHead": "e13d846b9010af905d06085a891d932d5fd92312",
   "devDependencies": {
-    "@nod/babel-preset-nod": "^4.0.3",
-    "@nod/jest-config": "^4.0.3"
+    "@nod/babel-preset-nod": "workspace:*",
+    "@nod/jest-config": "workspace:*",
+    "@nod/scripty-module": "workspace:*",
+    "scripty": "^1.9.1"
+  },
+  "scripts": {
+    "build:all": "scripty",
+    "build:react-scripts": "scripty",
+    "build:tsc": "scripty",
+    "clean:lock": "scripty",
+    "clean:output": "scripty",
+    "configure:env": "scripty",
+    "configure:get": "scripty",
+    "configure:scripty": "scripty",
+    "jest:test": "scripty",
+    "jest:watch": "scripty",
+    "package:name": "scripty",
+    "postinstall": "scripty",
+    "prebuild": "scripty",
+    "prepare": "scripty",
+    "prestart": "scripty",
+    "pretest": "scripty",
+    "run:a": "scripty",
+    "run:p": "scripty",
+    "run:s": "scripty",
+    "start:all": "scripty",
+    "start:react-scripts": "scripty",
+    "start:tsc": "scripty",
+    "start:tslint": "scripty",
+    "test:all-watch": "scripty",
+    "test:all": "scripty",
+    "test:react-scripts": "scripty",
+    "ts:c": "scripty",
+    "ts:install-types": "scripty",
+    "ts:lint": "scripty",
+    "wait-on": "scripty"
   }
 }
